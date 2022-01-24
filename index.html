@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- <script type="module" src="https://requirejs.org/docs/release/2.3.6/r.js"></script> -->
-    <script src="index.js"></script> 
+     
 </head>
 <body>
-    <form onsubmit="return userInput(this)" method="get" class="form-example">
+    <div method="get" class="form-example">
         <div class="form-example">
           <label for="userpassword">Enter your Password: </label>
           <input type="password" name="userpassword" id="userpassword" required>
         </div>
         <div class="form-example">
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" onclick="hashGenerator();">
         </div>
-      </form>
+      </div>
       <div id = "result"></div>
+      <script src="index.js"></script>
       
 </body>
 

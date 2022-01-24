@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:SadeQL/password_sha_256.git",
+  "author": "Quentin <91956889+SadeQL@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "require": "^2.4.20"
+  }
+}
